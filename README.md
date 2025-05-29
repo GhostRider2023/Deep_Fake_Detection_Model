@@ -21,5 +21,5 @@ This project aims to detect **video deepfakes** using advanced deep learning tec
 
 ## 📈 Results
 
-- Achieved an accuracy of **80%** on the validation dataset and 0.8234 AUC.
+- Achieved an accuracy of **80%** on the validation dataset and 0.82 AUC.
 - Balanced performance on real and fake videos
