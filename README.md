@@ -8,6 +8,11 @@ This project aims to detect **video deepfakes** using advanced deep learning tec
 - These frame-wise features are passed to a **Long Short-Term Memory (LSTM)** network to capture temporal dependencies across frames.
 - A final **classification layer** predicts whether the video is real or fake.
 
+## 🔍 Preprocessing
+
+- Faces were detected and aligned using **MTCNN (Multi-task Cascaded Convolutional Networks)**.
+- The detected faces were resized and normalized before being passed to the model.
+
 ## 🚀 Highlights
 
 - **Transfer Learning**: Utilized pretrained ResNeXt to improve performance and reduce training time.
@@ -17,4 +22,4 @@ This project aims to detect **video deepfakes** using advanced deep learning tec
 ## 📈 Results
 
 - Achieved an accuracy of **80%** on the validation dataset.
-- Balanced performance on real and fake videos, even with limited data.
+- Balanced performance on real and fake videos
